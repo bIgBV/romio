@@ -5,7 +5,7 @@ mod sharded_rwlock;
 // ===== Public re-exports =====
 
 use self::background::Background;
-pub use crate::raw::poll_evented::PollEvented;
+pub use crate::raw::PollEvented;
 
 // ===== Private imports =====
 
