@@ -2,4 +2,5 @@
 //!
 //! This module exposes raw Poll APIs.
 
-pub mod poll_evented;
+mod poll_evented;
+pub use poll_evented::*;
